@@ -1,16 +1,16 @@
 const regions = [
-    { id: 20,
+    { region_id: 20,
         name: "central",
 
     },
-    { id: 21,
+    { region_id: 21,
         name: "south",
 
     },
-    { id: 23,
+    { region_id: 23,
         name: "northern",
 
     }
 ]
 
-export default regions
+export {regions}
