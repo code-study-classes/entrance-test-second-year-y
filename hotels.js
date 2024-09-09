@@ -7,9 +7,9 @@ function setHotel (name, region) {
     const item = {
         id: hotels.length + 1,
         name,
-        regionId
+        regionId: regionId[0].region_id
 
     }
-    return regionId
+    return item
 }
 console.log(setHotel('fkkf', 21));
